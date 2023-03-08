@@ -1,6 +1,9 @@
 # LCD-Screen-on-Raspberry-Pi
-Download both files, put them into the same folder, then run the script.
-And here is the network diagram of the way each pin should be connected.
+The lcd-python-script is the main script which is capable of printing 32 characters on 1602 LCD screen. lcdmosule.py is the mandatory repositroy for that.
+
+Download both files, put them into the same folder, then run the script. < python lcd-python-script.py >
+
+Here is the network diagram of the way each pin should be connected.
 ![Untitled11](https://user-images.githubusercontent.com/87240174/223600446-5e47c1a8-2354-4943-9f37-d24e3b1e9cdc.jpg)
 PINs information:
 VSS (Ground): Connect this pin to GND on the Raspberry Pi.
